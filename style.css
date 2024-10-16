@@ -46,3 +46,25 @@ header, footer {
 }
 
 html{font-size: 10px;}
+
+h1, h2 {
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 0.08rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+ font-size: 1.8 rem;
+}
+
+p + p {
+text-indent: 1.25 rem;
+}
+
+a {
+  text-decoration: underline; 
+  color: #a66;
+}
