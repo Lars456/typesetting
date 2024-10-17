@@ -8,9 +8,6 @@ body {
   margin: 0 auto;
   min-width: 1000px;
   max-width: 1400px;
-  font-family: serif;
-  line-height: 1.6;
-  
 }
 
 /* Layout */
@@ -45,7 +42,14 @@ header, footer {
   border-bottom: 5px solid #a66;
 }
 
-html{font-size: 10px;}
+ body {
+  font-family: serif;
+  line-height: 1.6;
+}
+
+html {
+  font-size: 15px;
+}
 
 h1, h2 {
   font-family: 'Lato', sans-serif;
