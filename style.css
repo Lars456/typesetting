@@ -81,3 +81,16 @@ a:focus {
   color: #296767;
   text-decoration: none;
 }
+
+a:active {
+}
+
+li, p {
+
+}
+
+nav a:hover,
+nav a:focus {
+  color: #296767;
+  border: 1px solid #000000;
+}
