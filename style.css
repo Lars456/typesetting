@@ -80,23 +80,24 @@ ul, p {
 ul {
   list-style-type: square;
 }
+
 ul li::marker {
-  color: #296767;
+  color: #000000;
 }
 
 a {
-  color: #AB4444;
+  color: #993636;
   outline: none;
 }
 
 a:hover,
 a:focus {
-  color: #296767;
+  color: #000000;
   text-decoration: none;
 }
 
 a:visited {
-  color: #8B3E3E;
+  color: #782323;
 }
 
 a:active {
@@ -106,6 +107,25 @@ a:active {
 
 a:focus {
   outline: none;
+}
+
+nav a {
+  display: block;
+  padding: 1rem;
+  border: 1px solid #993636;
+  font-size: 2rem;
+}
+
+nav a:hover,
+nav a:focus {
+  color: black;
+  border: black;
+}
+
+nav a:active {
+  background: black;
+  color: white;
+  border: 1px solid black;
 }
 
 
